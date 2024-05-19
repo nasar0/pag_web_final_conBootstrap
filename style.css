@@ -2,7 +2,15 @@
     margin: auto;
     align-items: center;
 }
-header img{
-    width: 80%;
+header img {
+    width: 70%;
 }
-  
+header ul li{
+    color: white;
+}
+.blanco {
+    color: white !important;
+}
+#destcados div>div>div>div{
+    display: flex;
+}
