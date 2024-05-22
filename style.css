@@ -14,3 +14,21 @@ header ul li{
 #destcados div>div>div>div{
     display: flex;
 }
+#destacados>div{
+    display: flex;
+    width: 80%;
+    height: 50vh;
+}
+#destacados img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+#destacados img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
