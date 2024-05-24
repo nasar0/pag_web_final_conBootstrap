@@ -2,6 +2,9 @@
     margin: auto;
     align-items: center;
 }
+img{
+    max-width: 100%;
+}
 header img {
     width: 70%;
 }
@@ -11,13 +14,14 @@ header ul li{
 .blanco {
     color: white !important;
 }
-#destcados div>div>div>div{
-    display: flex;
+#destcados {
+    width: 50%;
 }
 #destacados>div{
     display: flex;
-    width: 80%;
-    height: 50vh;
+    width: 70%;
+    height: 40vh;
+    margin: auto;
 }
 #destacados img{
     width: 0px;
@@ -31,4 +35,9 @@ header ul li{
     width: 300px;
     opacity: 1;
     filter: contrast(120%);
-  }
+}
+#novedades>div{
+    display: flex;
+    
+    flex-wrap: nowrap;
+}
