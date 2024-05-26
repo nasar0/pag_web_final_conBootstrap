@@ -1,6 +1,13 @@
-.container{
+*{
+    margin: 0;
+}
+body{
+   
+}
+.con{
     margin: auto;
     align-items: center;
+    width: 78%;
 }
 img{
     max-width: 100%;
@@ -14,17 +21,20 @@ header ul li{
 .blanco {
     color: white !important;
 }
-#destcados {
-    width: 50%;
+#destacados{
+    margin-top:1% ;
+    height: 50vh; 
+
 }
 #destacados>div{
     display: flex;
     width: 70%;
-    height: 40vh;
+    height: 40vh; 
     margin: auto;
+    padding-top: 1%;
 }
 #destacados img{
-    width: 0px;
+    width: 0%;
     flex-grow: 1;
     object-fit: cover;
     opacity: .8;
@@ -32,12 +42,80 @@ header ul li{
 }
 #destacados img:hover{
     cursor: crosshair;
-    width: 300px;
+    width: 10vh;
     opacity: 1;
-    filter: contrast(120%);
+    
 }
+
+#novedades {
+
+    padding: 20px;
+}
+
+#novedades h2 {
+    margin: 20px 0;
+}
+
 #novedades>div{
     display: flex;
-    
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+article {
+    border: solid 2px;
+    padding: 1%;
+    margin: 1%;
+}
+#novedades h5 {
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+#novedades  img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#novedades p{
+    color: red;
+    font-size: 17px;
+    font-weight: bold;
+}
+#novedades span{
+    color: black;
+    text-decoration: line-through;
+    font-size: 15px;
+    font-weight:lighter;
+}
+#snom{
+    padding-top:3%;
+   
+    align-items: center;
+}
+#snom>div{
+    display: flex;
+    justify-content: space-between;
+}
+#snom>div>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 3%;
+}
+footer>div{
+    display: flex;
+    justify-content: space-between;
 }

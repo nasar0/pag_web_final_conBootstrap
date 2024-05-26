@@ -1,100 +1,203 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <body>
-    <header class="">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary" >
-        <div class="container-fluid text-bg-primary p-3 mx-5">
-          <a class="navbar-brand" href="#"><img src="https://comicspain.com/img/comic-spain-logo-1578392951.jpg" class="img-fluid"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse container-fluid" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item mx-5">
-                <a class="nav-link active blanco" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item mx-5">
-                <a class="nav-link active blanco" aria-current="page" href="./index.html">MARVEL COMICS</a>
-              </li>
-              <li class="nav-item mx-5">
-                <a class="nav-link active blanco" aria-current="page" href="./index.html">DC COMICS</a>
-              </li>
-              <li class="nav-item dropdown mx-5">
-                <a class="nav-link dropdown-toggle blanco" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">CÓMIC AMERICANO</a>
-                <ul class="dropdown-menu ">
-                  <li><a class="dropdown-item" href="#">MARVEL COMICS</a></li>
-                  <li><a class="dropdown-item" href="#">DC COMICS</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown mx-5">
-                <a class="nav-link dropdown-toggle blanco" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">MANGA</a>
-                <ul class="dropdown-menu text-bg-light p-3">
-                  <li><a class="dropdown-item" href="#">MANGA SHONEN</a></li>
-                  <li><a class="dropdown-item" href="#">MANGA SEINEN</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control " type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success btn btn-light" type="submit">Search</button>
-            </form>
-          </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <header class="">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+      <div class="container-fluid text-bg-primary p-3 mx-5">
+        <a class="navbar-brand" href="#"><img src="https://comicspain.com/img/comic-spain-logo-1578392951.jpg" class="img-fluid"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse container-fluid" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-5">
+              <a class="nav-link active blanco" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item mx-5">
+              <a class="nav-link active blanco" aria-current="page" href="./marvel.html">MARVEL COMICS</a>
+            </li>
+            <li class="nav-item mx-5">
+              <a class="nav-link active blanco" aria-current="page" href="./index.html">DC COMICS</a>
+            </li>
+            <li class="nav-item dropdown mx-5">
+              <a class="nav-link dropdown-toggle blanco" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">CÓMIC AMERICANO</a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="./marvel.html">MARVEL COMICS</a></li>
+                <li><a class="dropdown-item" href="#">DC COMICS</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-5">
+              <a class="nav-link dropdown-toggle blanco" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">MANGA</a>
+              <ul class="dropdown-menu text-bg-light p-3">
+                <li><a class="dropdown-item" href="#">MANGA SHONEN</a></li>
+                <li><a class="dropdown-item" href="#">MANGA SEINEN</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success btn btn-light" type="submit">Search</button>
+          </form>
         </div>
-      </nav>
-    </header>
-    <main>
-      <section id="destacados" >
-        <h2 class="mx-5 p-10">DESTACADOS</h2>
-        <div>
-          <img src="./img/1/ataque-a-los-titanes-n-03-edicion-integral.jpg" class="d-block carousel-img" alt="">
-          <img src="./img/1/ciencia-oscura-vol-03-integral-un-breve-instante-de-claredad.jpg" class="d-block carousel-img" alt="">
-          <img src="./img/1/donde-vi-el-cadaver.jpg" class="d-block carousel-img" alt="">
-          <img src="./img/1/museum-integral-the-serial-killer-is-laughin-in-the-rain.jpg" class="d-block carousel-img" alt="">
-          <img src="./img/1/solo-leveling-n-08.jpg" class="d-block carousel-img" alt="">
-          <img src="./img/1/tenemos-demonios.jpg" class="d-block carousel-img" alt="">
-          <img src="./img/1/un-oscuro-manto.jpg" class="d-block carousel-img" alt=""> 
-        </div>
-      </section>
-    <section id="novedades">
-      <h2 class="mx-5 p-10">NOVEDADES</h2>
-      <div class="container container-fluid">
-        <article>
-          <img src="./img/2/1.jpg" alt="">
-          <h5></h5>
-          <p><span></span></p>
-        </article>
-        <article>
-          <img src="./img/2/2.jpg" alt="">
-          <h5></h5>
-          <p><span></span></p>
-        </article>
-        <article>
-          <img src="./img/2/3.jpg" alt="">
-          <h5></h5>
-          <p><span></span></p>
-        </article>
-        <article>
-          <img src="./img/2/4.jpg" alt="">
-          <h5></h5>
-          <p><span></span></p>
-        </article>
-        <article>
-          <img src="./img/2/5.jpg" alt="">
-          <h5></h5>
-          <p><span></span></p>
-        </article>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="destacados" >
+      <h2 class="mx-5 p-10">DESTACADOS</h2>
+      <div>
+        <img src="./img/1/ataque-a-los-titanes-n-03-edicion-integral.jpg" class="d-block carousel-img" alt="">
+        <img src="./img/1/ciencia-oscura-vol-03-integral-un-breve-instante-de-claredad.jpg" class="d-block carousel-img" alt="">
+        <img src="./img/1/donde-vi-el-cadaver.jpg" class="d-block carousel-img" alt="">
+        <img src="./img/1/museum-integral-the-serial-killer-is-laughin-in-the-rain.jpg" class="d-block carousel-img" alt="">
+        <img src="./img/1/solo-leveling-n-08.jpg" class="d-block carousel-img" alt="">
+        <img src="./img/1/tenemos-demonios.jpg" class="d-block carousel-img" alt="">
+        <img src="./img/1/un-oscuro-manto.jpg" class="d-block carousel-img" alt=""> 
       </div>
     </section>
-
-    </main>
-    <footer></footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+  <section id="novedades">
+    <h2 class="mx-5 p-10">NOVEDADES</h2>
+    <div class="con">
+      <article>
+        <div class="card" style="width: 18rem;">
+          <img src="./img/2/8.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">BATMAN: EL TRIBUNAL DE LOS BÚHOS LA SAGA COMPLETA VOL. 02</h5>
+            <p class="card-text"><span> 70,00 €</span>66,50 €</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="card" style="width: 18rem;">
+          <img src="./img/2/3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">MOTORISTA FANTASMA VOL. 05: EL DIABLO DE LA CARRETERA</h5>
+            <p class="card-text"><span>41,95 €</span>39,85 €</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="card" style="width: 18rem;">
+          <img src="./img/2/6.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">EL SISTEMA DE AUTOSALVACIÓN DEL VILLANO ESCORIA VOL. 01</h5>
+            <p class="card-text"><span>18,95€</span>18,00€</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="card" style="width: 18rem;">
+          <img src="./img/2/4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">XIII: MYSTERY INTEGRAL VOL. 12 - 13 ALAN SMITH / JUDITH WARNER</h5>
+            <p class="card-text"><span>35,00 €</span>33.65€</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="card" style="width: 18rem;">
+          <img src="./img/2/5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">LA JUVENTUD DE THORGAL VOL. 11: GRYM</h5>
+            <p class="card-text"><span>18.95 €</span>18.22 €</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="card" style="width: 18rem;">
+          <img src="./img/2/2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">BLADE RUNNER 2039 VOL. 02: MEJORA</h5>
+            <p class="card-text"><span>18.95 €</span>18.22 €</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="card" style="width: 18rem;">
+          <img src="./img/2/7.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CABALLERO LUNA VOL. 12: CUANDO LLEGA LA NOCHE </h5>
+            <p class="card-text"><span>18.95 €</span>18.22 €</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="card" style="width: 18rem;">
+          <img src="./img/2/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">HELLBOY VOL. 30: HELLBOY ENAMORADO</h5>
+            <p class="card-text"><span>18.95 €</span>18.22 €</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section id="destacados" >
+    <h2 class="mx-5 p-10">PROXIMAMENTE</h2>
+    <div>
+      <img src="./img/3/1.jpg" alt="">
+      <img src="./img/3/2.jpg" alt="">
+      <img src="./img/3/3.jpg" alt="">
+      <img src="./img/3/4.jpg" alt="">
+      <img src="./img/3/5.jpg" alt="">
+      <img src="./img/3/6.jpg" alt="">
+      <img src="./img/3/7.jpg" alt="">
+    </div>
+  </section>
+  <section id="snom">
+    <div class="con">
+      <div>
+        <div><img src="./img/regalo.png" alt=""></div>
+        <div><p>PROTECCION EXTRA EN LAS MEJORES CONDICIONES.</p></div>
+      </div>
+      <div>
+        <div><img src="./img/camion.png" alt=""></div>
+        <div><p>ENVIO GRATIS DESDE 49€ EN 24 H.</p></div>
+      </div>
+      <div>
+        <div><img src="./img/armario.png" alt=""></div>
+        <div><p>STOCK REAL CON ENVIO INMEDIATO.</p></div>
+      </div>
+    </div>
+  </section>
+  </main>
+  <footer>
+    <div class="con">
+      <div>
+        <h6>PRODUCTOS</h6>
+        <p>Ofertas </p>
+        <p> Novedades</p>
+        <p>Los más vendidos</p>
+      </div>
+      <div>
+        <h6>NUESTRA EMPRESA</h6>
+        <p>Envios y Formas de Pago </p>
+        <p> Aviso legal</p>
+        <p>Términos y condiciones</p>
+      </div>
+      <div>
+        <h6>SU CUENTA</h6>
+        <p>Información personal </p>
+        <p> Devoluciones de mercancía</p>
+        <p>Cupones de descuento</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>

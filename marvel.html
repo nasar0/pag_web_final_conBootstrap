@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid text-bg-primary p-3 mx-5">
+          <a class="navbar-brand" href="#"><img src="https://comicspain.com/img/comic-spain-logo-1578392951.jpg" class="img-fluid"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse container-fluid" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-5">
+                <a class="nav-link active blanco" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link active blanco" aria-current="page" href="./marvel.html">MARVEL COMICS</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link active blanco" aria-current="page" href="./index.html">DC COMICS</a>
+              </li>
+              <li class="nav-item dropdown mx-5">
+                <a class="nav-link dropdown-toggle blanco" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">CÓMIC AMERICANO</a>
+                <ul class="dropdown-menu ">
+                  <li><a class="dropdown-item" href="./marvel.html">MARVEL COMICS</a></li>
+                  <li><a class="dropdown-item" href="#">DC COMICS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown mx-5">
+                <a class="nav-link dropdown-toggle blanco" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">MANGA</a>
+                <ul class="dropdown-menu text-bg-light p-3">
+                  <li><a class="dropdown-item" href="#">MANGA SHONEN</a></li>
+                  <li><a class="dropdown-item" href="#">MANGA SEINEN</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success btn btn-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section id="marvelBanner">
+            <div class="con">
+                <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./img/marvel/Marvel.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/marvel/e72d760a8952d3ae95a15f40cf8f56d3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/marvel/e72d760a8952d3ae95a15f40cf8f56d3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div> 
+        </section>
+        <section id="novedades">
+            <div class="con">
+                <article>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/4/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">THOR DE WALTER SIMONSON. LA BALADA DE BILL RAYOS </h5>
+                      <p class="card-text"><span>39,95 €</span>37,95 €</p>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/4/2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">MONSTRUOS DE MARVEL DE LEE , LIEBER Y KIRBY PARTE 01</h5>
+                      <p class="card-text"><span>52,95 €</span>50,30 €</p>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/4/3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">ESTELA PLATEADA VOL. 02: TRIANGULO</h5>
+                      <p class="card-text"><span>22,00 €</span>20,90 €</p>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/4/4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">ESTELA PLATEADA VOL. 01: LIBERTAD</h5>
+                      <p class="card-text"><span>25,00 €</span>23,75 €</p>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/4/5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">MASACRE VS MATANZA ABSOLUTA VOL. 01:</h5>
+                      <p class="card-text"><span>5,99 €</span>5,69 €</p>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/2/7.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">CABALLERO LUNA VOL. 12: CUANDO LLEGA LA NOCHE </h5>
+                        <p class="card-text"><span>18.95 €</span>18.22 €</p>
+                        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                      </div>
+                    </div>
+                  </article>
+                <article>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/4/7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">LOS ÚLTIMOS DÍAS DEL CABALLERO LUNA</h5>
+                      <p class="card-text"><span>22,00 €</span>20,90 €</p>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/4/8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">GUARDIANES DE LA GALAXIA VOL. 02</h5>
+                      <p class="card-text"><span>18.95 €</span>18.22 €</p>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/4/9.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">EL ASOMBROSO SPIDERMAN Nº 29 / 238</h5>
+                        <p class="card-text"><span>5,50 €</span>5,23 €</p>
+                        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                      </div>
+                    </div>
+                  </article>
+                  <article>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/4/10.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">EL CASTIGADOR VOL. 01: EN LA CARRETERA</h5>
+                        <p class="card-text"><span>15,00 €</span>14,25 €</p>
+                        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                      </div>
+                    </div>
+                  </article>
+                  <article>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/4/11.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">EL INCREÍBLE HULK Nº 10 / 140 DE Danny Earls , Philip Kennedy</h5>
+                        <p class="card-text"><span>3,30€</span>3,14€</p>
+                        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                      </div>
+                    </div>
+                  </article>
+                  <article>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/4/12.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">LOBEZNO DE DANIEL WAY VOL. 01: ORÍGENES Y FINALES</h5>
+                        <p class="card-text"><span>49,95 €</span>47,45 €</p>
+                        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                      </div>
+                    </div>
+                  </article>
+                  <article>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/4/13.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">MARVEL YOUNG ADULTS MILES MORALES</h5>
+                        <p class="card-text"><span>13,95 €</span>13,25 €</p>
+                        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                      </div>
+                    </div>
+                  </article>
+                  <article>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/2/3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">MOTORISTA FANTASMA VOL. 05: EL DIABLO</h5>
+                        <p class="card-text"><span>41,95 €</span>39,85 €</p>
+                        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                      </div>
+                    </div>
+                  </article>
+                  <article>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/4/15.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">VENENO Nº 29 / 77 DE Ken Lashley , Pere Pérez</h5>
+                        <p class="card-text"><span>5,00 €</span>4,75 €</p>
+                        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                      </div>
+                    </div>
+                  </article>
+                  <article>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/4/16.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">CAÍDA DE DINASTÍA DE X Nº03 DE Gerry Duggan </h5>
+                        <p class="card-text"><span>3,80 €</span>3,61 €</p>
+                        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                      </div>
+                    </div>
+                  </article>
+              </div>
+        </section>
+    </main>
+    <footer>
+        <div class="con">
+          <div>
+            <h6>PRODUCTOS</h6>
+            <p>Ofertas </p>
+            <p> Novedades</p>
+            <p>Los más vendidos</p>
+          </div>
+          <div>
+            <h6>NUESTRA EMPRESA</h6>
+            <p>Envios y Formas de Pago </p>
+            <p> Aviso legal</p>
+            <p>Términos y condiciones</p>
+          </div>
+          <div>
+            <h6>SU CUENTA</h6>
+            <p>Información personal </p>
+            <p> Devoluciones de mercancía</p>
+            <p>Cupones de descuento</p>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
