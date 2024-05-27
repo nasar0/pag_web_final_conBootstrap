@@ -119,3 +119,10 @@ footer>div{
     display: flex;
     justify-content: space-between;
 }
+.sobre h2{
+    text-align: center;
+}
+.sobre{
+    text-align: center;
+    padding: 5% 0;
+}
