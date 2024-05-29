@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <header class="">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid text-bg-primary p-3 mx-5">
+          <a class="navbar-brand" href="#"><img src="https://comicspain.com/img/comic-spain-logo-1578392951.jpg" class="img-fluid"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse container-fluid" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-5">
+                <a class="nav-link active blanco" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link active blanco" aria-current="page" href="./marvel.html">MARVEL COMICS</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link active blanco" aria-current="page" href="./index.html">DC COMICS</a>
+              </li>
+              <li class="nav-item dropdown mx-5">
+                <a class="nav-link dropdown-toggle blanco" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">CÓMIC AMERICANO</a>
+                <ul class="dropdown-menu ">
+                  <li><a class="dropdown-item" href="./marvel.html">MARVEL COMICS</a></li>
+                  <li><a class="dropdown-item" href="#">DC COMICS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown mx-5">
+                <a class="nav-link dropdown-toggle blanco" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">MANGA</a>
+                <ul class="dropdown-menu text-bg-light p-3">
+                  <li><a class="dropdown-item" href="#">MANGA SHONEN</a></li>
+                  <li><a class="dropdown-item" href="#">MANGA SEINEN</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success btn btn-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section id="marvelBanner">
+            <div class="con">
+                <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./img/dc/baner.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item active">
+                        <img src="./img/dc/download.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div> 
+        </section>
+        <section id="novedades">
+          <H2>LOS MAS RELEVANTES</H2>
+            <div class="con">
+                <article>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/dc/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">UNIVERSO SANDMAN: LOS DETECTIVES MUERTOS</h5>
+                      <p class="card-text"><span>24,00€</span>16,80 €</p>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/dc/2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">JOKER: EL HOMBRE QUE RÍE (GRANDES NOVELAS)</h5>
+                      <p class="card-text"><span>21,50 €</span>15,05€</p>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/dc/3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BATMAN: ASILO ARKHAM (EDICIÓN DELUXE)</h5>
+                      <p class="card-text"><span>38,00 €</span>36,10 €</p>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/dc/4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">FLASH: RUMBO A FLASHPOINT (DC POCKET)</h5>
+                      <p class="card-text"><span>9,95 € </span>9,45 €</p>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/dc/5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BATMAN Nº 16 / 146 de Matthew Rosenberg</h5>
+                      <p class="card-text"><span>5,00 €</span>4,75 €</p>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/dc/6.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">DCSOS (GRANDES NOVELAS GRÁFICAS DE DC) </h5>
+                        <p class="card-text"><span>31,00 €</span>29,45 €</p>
+                        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                      </div>
+                    </div>
+                  </article>
+                <article>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/dc/7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">NOCHE OSCURA: UNA HISTORIA VERÍDICA</h5>
+                      <p class="card-text"><span>20,50 €</span>19,48 €</p>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/dc/8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">SUPERMAN: LAS CUATRO ESTACIONES</h5>
+                      <p class="card-text"><span>28,50 €</span>27,08 €</p>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/dc/9.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">BATMAN: CONDENADO (EDICIÓN DELUXE)</h5>
+                        <p class="card-text"><span>35,50 €</span>33,73 €</p>
+                        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                      </div>
+                    </div>
+                  </article>
+                  <article>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/dc/10.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">BATMAN: UNA MUERTE EN LA FAMILIA </h5>
+                        <p class="card-text"><span>23,00 €</span>21,85 €</p>
+                        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                      </div>
+                    </div>
+                  </article>
+                  <article>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/dc/11.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">NIGHTWING Nº 31 de autores: Becky Cloonan </h5>
+                        <p class="card-text"><span>3,50 €</span>3,33 €</p>
+                        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                      </div>
+                    </div>
+                  </article>
+                  <article>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/dc/12.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">TERRORES NOCTURNOS: BATMAN</h5>
+                        <p class="card-text"><span>24,00 €</span> 22,80 €</p>
+                        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                      </div>
+                    </div>
+                  </article>
+                  <article>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/dc/13.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">BATMAN: MÁS ALLÁ DEL CABALLERO BLANCO</h5>
+                        <p class="card-text"><span>34,00 €</span>32,30 €</p>
+                        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                      </div>
+                    </div>
+                  </article>
+                  <article>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/dc/14.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">LAS TORTUGAS NINJA EL ÚLTIMO RONIN</h5>
+                        <p class="card-text"><span>3,50 €</span>3,33 €</p>
+                        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                      </div>
+                    </div>
+                  </article>
+                  <article>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/dc/15.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">HAL JORDAN Y LOS GREEN LANTERN CORPS </h5>
+                        <p class="card-text"><span>34,00 €</span>32,30 €</p>
+                        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                      </div>
+                    </div>
+                  </article>
+                  <article>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/2/8.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">BATMAN: EL TRIBUNAL DE LOS BÚHOS LA SAGA COMPLETA VOL. 02</h5>
+                        <p class="card-text"><span> 70,00 €</span>66,50 €</p>
+                        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                      </div>
+                    </div>
+                  </article>
+              </div>
+        </section>
+        <section class="sobre">
+          <div class="con">
+            <h2>Sobre DC comics</h2>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <strong>¿Qué es el Universo Extendido de DC (DCEU)?</strong>
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                        El Universo Extendido de DC (DCEU) es una franquicia de medios y un universo compartido centrado en una serie de películas y series de televisión producidas por Warner Bros. Pictures, basada en personajes que aparecen en los cómics de DC. El DCEU comenzó con "Man of Steel" en 2013 y ha crecido para incluir varias películas y series que presentan a los superhéroes y villanos de DC.
+                    </p>
+                    </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <strong>¿Quiénes son algunos de los superhéroes más icónicos de DC?</strong>
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      <strong>Batman (Bruce Wayne):</strong> Un multimillonario que combate el crimen en Gotham City utilizando su intelecto, habilidades de detective y tecnología avanzada.
+                    </p>
+                  </div>
+                  <div class="accordion-body">
+                    <p>
+                      <strong>Superman (Clark Kent/Kal-El):  </strong> Un extraterrestre de Krypton con habilidades sobrehumanas, como la super fuerza, vuelo y visión de rayos X.
+                    </p>
+                  </div>
+                  <div class="accordion-body">
+                    <p>
+                      <strong>Wonder Woman (Diana Prince):</strong>Una princesa amazona con fuerza sobrehumana, habilidades de combate y un lazo mágico que obliga a decir la verdad.
+                    </p>
+                  </div>
+                  <div class="accordion-body">
+                    <p>
+                      <strong>The Flash (Barry Allen): </strong> Un velocista que puede moverse a velocidades extremas
+                    </p>
+                  </div>
+                  <div class="accordion-body">
+                    <p>
+                      <strong>Green Lantern (Hal Jordan):</strong> Un miembro de un cuerpo intergaláctico de policías que usa un anillo de poder para crear constructos de luz sólida.
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <strong>¿Cuál es la diferencia entre DC Comics y DC Entertainment?</strong>
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <div class="accordion-body">
+                      <p>
+                        <strong>DC Comics</strong>es la compañía editorial responsable de la creación y publicación de los cómics donde nacieron los personajes de DC. Fundada en 1934, DC Comics ha producido miles de cómics y ha creado un vasto universo de personajes y historias.
+                      </p>
+                    </div>
+                    <div class="accordion-body">
+                      <p>
+                        <strong>DC Entertainment</strong> es la división de Warner Bros. encargada de producir las películas, series de televisión y otros medios basados en los personajes de DC Comics. DC Entertainment supervisa la adaptación de estos personajes y sus historias al cine y la televisión, incluyendo tanto el DCEU como otras producciones fuera de este universo compartido.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+    <footer>
+        <div class="con">
+          <div>
+            <h6>PRODUCTOS</h6>
+            <p>Ofertas </p>
+            <p> Novedades</p>
+            <p>Los más vendidos</p>
+          </div>
+          <div>
+            <h6>NUESTRA EMPRESA</h6>
+            <p>Envios y Formas de Pago </p>
+            <p> Aviso legal</p>
+            <p>Términos y condiciones</p>
+          </div>
+          <div>
+            <h6>SU CUENTA</h6>
+            <p>Información personal </p>
+            <p> Devoluciones de mercancía</p>
+            <p>Cupones de descuento</p>
+          </div>
+        </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
