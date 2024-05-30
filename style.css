@@ -1,14 +1,13 @@
 *{
     margin: 0;
 }
-body{
-   
-}
+H2{text-align: center; padding: 1%;}
 .con{
     margin: auto;
     align-items: center;
     width: 78%;
 }
+section{padding: 5% 0;}
 img{
     max-width: 100%;
 }
@@ -48,7 +47,8 @@ header ul li{
 }
 
 #novedades {
-
+    margin-top: 5%;
+    text-align: center;
     padding: 20px;
 }
 
@@ -65,7 +65,7 @@ header ul li{
     text-align: center;
 }
 
-article {
+#novedades article {
     border: solid 2px;
     padding: 1%;
     margin: 1%;
@@ -95,8 +95,7 @@ article {
     font-weight:lighter;
 }
 #snom{
-    padding-top:3%;
-   
+    margin-top:10%;
     align-items: center;
 }
 #snom>div{
@@ -109,20 +108,96 @@ article {
     align-items: center;
     font-size: 15px;
 }
+#snom>div>div div{
+    padding: 1%;
+}
 footer{
     background-color: black;
     color: white;
     display: flex;
-    padding: 3%;
+    padding-top: 3%;
 }
-footer>div{
+footer > div{
     display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
     justify-content: space-between;
 }
-.sobre h2{
-    text-align: center;
-}
+
 .sobre{
     text-align: center;
     padding: 5% 0;
 }
+#inicio h1{
+    text-align: center;
+    padding-top: 2%;
+}
+#inicio>div{
+    display: flex;
+    justify-content: space-between;
+}
+#inicio>div>div{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+#inicio>div>div:nth-child(1){
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: justify;
+}
+#rele>div div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1%;
+    text-align: justify;
+}
+#rele span{
+    font-weight: bold;
+}
+@media (max-width: 850px) {
+    #snom>div div{
+        display: flex;
+        flex-direction: column; 
+    }
+    #snom>div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer > div{
+        display: flex;
+        flex-direction: column;  
+        text-align: center;
+    }
+    footer > div > div{
+        padding: 5%;
+        max-width: 100%;
+        border: solid 1px ;
+    }
+    #inicio>div{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        font-size: 15px;
+        width: 100%;
+    }
+    #inicio>div>div{
+        width: 80%;
+    }
+    #inicio>div>div:nth-child(1){
+        width: 80%;
+    }
+    #rele>div div{
+        flex-direction: column-reverse;
+    }
+    #rele>div div:nth-child(2){
+        flex-direction: column;
+    }
+}
+
+    
